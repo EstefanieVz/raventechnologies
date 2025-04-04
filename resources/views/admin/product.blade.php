@@ -33,7 +33,7 @@
                 <img src="{{ asset('/fondo/solaris.jpg') }}" alt="Imagen principal" class="slide img">
             </div>
             <div class="option flex">
-                @foreach (['solaris.jpg', 'solaris1.jpg', 'solaris2.jpg', 'solaris3.jpg', 'solaris4.jpg'] as $image)
+                @foreach (['solaris.jpg', 'solaris1.jpg', 'solaris4.jpg', 'solaris2.jpg', 'solaris3.jpg'] as $image)
                     <img src="{{ asset('/fondo/' . $image) }}" onclick="changeImage(this)" class="img">
                 @endforeach
             </div>
@@ -43,15 +43,11 @@
             <h4>¡ Controla tus dispositivos con un solo toque !</h4>
             <p class="p">Solaris te ofrece la posibilidad de encender y apagar dos dispositivos de manera remota, gracias a nuestros botones de control integrados. ¡Disfruta de la comodidad y la flexibilidad de gestionar tus sistemas fotovoltaicos desde cualquier lugar!
                <br><br><small>
-                Disponible para Android.</small> </p>
-
-            
-            <h5>Color</h5>
-            <div class="color flex1">
-                @for ($i = 0; $i < 7; $i++)
-                    <span></span>
-                @endfor
-            </div>
+                Disponible para Android.</small> <br>
+                <a href="https://drive.google.com/uc?export=download&id=1I_gM7Eanj-VqNNuiDa94OK0DZvcTGGJ9"
+   style="display: inline-block; background: #ff8000; color: #000; text-decoration: none; padding: 10px 20px; border-radius: 5px;">
+    Descarga Ahora
+</a>
         </div>
     </div>
     <br><br><br>
